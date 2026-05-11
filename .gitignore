@@ -1,0 +1,95 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env*
+!.env.example
+
+# =========================
+# Django
+# =========================
+db.sqlite3
+db.sqlite3-journal
+
+# Django collected static files
+staticfiles/
+
+# User uploaded media
+media/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# Markdown Files
+# Ignore all markdown except README
+# =========================
+*.md
+
+# =========================
+# Node (if using React/Vite frontend)
+# =========================
+node_modules/
+
+# =========================
+# Cache
+# =========================
+.cache/
+
+# =========================
+# mypy / Ruff / Black
+# =========================
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# PyCharm
+# =========================
+.idea/
